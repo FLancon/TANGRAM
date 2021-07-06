@@ -9,6 +9,7 @@
     height:512px;
     position: relative;
     margin:150px auto;
+    transform: scale(0.65);
 }
 
 .tangram > div {
