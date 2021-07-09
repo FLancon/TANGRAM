@@ -1,0 +1,39 @@
+.tangram--persolucas{
+    bottom: -100px;
+}
+
+.tangram--persolucas .figure1 {
+    transform: translate(480px, 475px) rotate(225deg);
+    transition: transform 2s;
+}
+
+.tangram--persolucas .figure2 {
+    transform: translate(295px, 295px) rotate(45deg) skew(135deg);
+    transition: transform 2s;
+
+}
+
+.tangram--persolucas .figure3 {
+    transform: translate(-75px, -75px);
+    transition: transform 2s;
+}
+
+.tangram--persolucas .figure4 {
+    transform: translate(105px , 288px) rotate(225deg);
+    transition: transform 2s;
+}
+
+.tangram--persolucas .figure5 {
+    transform: translate(-435px , 475px) rotate(315deg);
+    transition: transform 2s;
+}
+
+.tangram--persolucas .figure6 {
+    transform: translate(105px , -256px) rotate(45deg);
+    transition: transform 2s;
+}
+
+.tangram--persolucas .figure7 {
+    transform: translate(-256px , -256px) rotate(315deg);
+    transition: transform 2s;
+}

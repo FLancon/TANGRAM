@@ -4,6 +4,7 @@ var button_bougie = document.getElementsByClassName("button--bougie")[0];
 var button_shirt = document.getElementsByClassName("button--shirt")[0];
 var button_gun = document.getElementsByClassName("button--gun")[0];
 var button_rocket = document.getElementsByClassName("button--rocket")[0];
+var button_persolucas = document.getElementsByClassName("button--persolucas")[0];
 
 button_basic.onclick = function() {
 	tangram.className =
@@ -24,5 +25,9 @@ button_gun.onclick = function() {
 button_rocket.onclick = function() {
 	tangram.className =
   tangram.className.replace(/tangram--(\S*)/,'tangram--rocket');
+};
+button_persolucas.onclick = function() {
+	tangram.className =
+  tangram.className.replace(/tangram--(\S*)/,'tangram--persolucas');
 };
 
