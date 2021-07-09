@@ -1,0 +1,112 @@
+/* TRIANGLE VERT POMME */
+.tangram--persoflorian .figure1 {
+    transform: translate(410px,207px) rotate(-180deg);
+    animation-duration: 2s;
+    animation-name: basictopersoflorian1;
+}
+
+/* TRAPÈZE VIOLET */
+.tangram--persoflorian .figure2 {
+    transform: translate(-248px,66px) rotate(-15deg) skew(-45deg);
+    animation-duration: 2s;
+    animation-name: basictopersoflorian2;
+}
+
+/* CARRÉ ROUGE */
+.tangram--persoflorian .figure3 {
+    transform: translate(719px,-103px) rotate(45deg);
+    animation-duration: 2s;
+    animation-name: basictopersoflorian3;
+}
+
+/* TRIANGLE ORANGE */
+.tangram--persoflorian .figure4 {
+    transform: translate(255px, 361px) rotate(-180deg);
+    animation-duration: 2s;
+    animation-name: basictopersoflorian4;
+}
+
+/* TRIANGLE JAUNE */
+.tangram--persoflorian .figure5 {
+    transform: translate(410px, -516px) rotate(45deg);
+    animation-duration: 2s;
+    animation-name: basictopersoflorian5;
+}
+
+/* TRIANGLE BLEU */
+.tangram--persoflorian .figure6 {
+    transform: translate(257px, 207px) rotate(-45deg);
+    animation-duration: 2s;
+    animation-name: basictopersoflorian6;
+}
+
+/* TRIANGLE VERT FONCÉ */
+.tangram--persoflorian .figure7 {
+    transform: translate(-182px, 181px) rotate(-45deg);
+    animation-duration: 2s;
+    animation-name: basictopersoflorian7;
+}
+
+
+@keyframes basictopersoflorian1{
+    from {
+        transform: rotate(0deg) translate(0px,0px);
+    } 
+    to {
+        transform: translate(410px,207px) rotate(-180deg);
+    }
+}
+
+@keyframes basictopersoflorian2{
+    from {
+        transform: rotate(0deg) skew(-45deg) translate(256px,-0px);
+    } 
+    to {
+        transform: translate(-248px,66px) rotate(-15deg) skew(-45deg);
+    }
+}
+
+@keyframes basictopersoflorian3{
+    from {
+        transform: rotate(45deg) translate(181px,0px);
+    } 
+    to {
+        transform: translate(719px,-103px) rotate(45deg);
+    }
+}
+
+@keyframes basictopersoflorian4{
+    from {
+        transform: rotate(0deg) translate(128px,128px);
+    } 
+    to {
+        transform: translate(255px, 361px) rotate(-180deg);
+    }
+}
+
+@keyframes basictopersoflorian5{
+    from {
+        transform: rotate(0deg) translate(0px,0px);
+    } 
+    to {
+        transform: translate(410px, -516px) rotate(45deg);
+    }
+}
+
+@keyframes basictopersoflorian6{
+    from {
+        transform: rotate(0deg) translate(0px,256px);
+    } 
+    to {
+        transform: translate(257px, 207px) rotate(-45deg);
+    }
+}
+
+@keyframes basictopersoflorian7{
+    from {
+        transform: rotate(0deg) translate(0px,256px);
+    } 
+    to {
+        transform: translate(-182px, 181px) rotate(-45deg);
+    }
+}
