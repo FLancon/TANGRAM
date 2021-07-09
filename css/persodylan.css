@@ -1,0 +1,114 @@
+
+/* TRIANGLE VERT POMME */
+.tangram--persodylan .figure1 {
+    transform: translate(263px,-75px) rotate(45deg);
+    animation-duration: 2s;
+    animation-name: basictoDylan1;
+}
+
+/* TRAPÈZE VIOLET */
+.tangram--persodylan .figure2 {
+    transform: translate(700px, 106px) rotate(180deg) skew(-45deg);
+    animation-duration: 2s;
+    animation-name: basictoDylan2;
+}
+
+/* CARRÉ ROUGE */
+.tangram--persodylan .figure3 {
+    transform: translate(-122px,160px) rotate(45deg);
+    animation-duration: 2s;
+    animation-name: basictoDylan3;
+}
+
+/* TRIANGLE ORANGE */
+.tangram--persodylan .figure4 {
+    transform: translate(-68px, 362px);
+    animation-duration: 2s;
+    animation-name: basictoDylan4;
+}
+
+/* TRIANGLE JAUNE */
+.tangram--persodylan .figure5 {
+    transform: translate(-68px,106px);
+    animation-duration: 2s;
+    animation-name: basictoDylan5;
+}
+
+/* TRIANGLE BLEU */
+.tangram--persodylan .figure6 {
+    transform: translate(60px, 490px) rotate(-90deg);
+    animation-duration: 2s;
+    animation-name: basictoDylan6;
+}
+
+/* TRIANGLE VERT FONCÉ */
+.tangram--persodylan .figure7 {
+    transform: translate(700px, 106px) rotate(90deg);
+    animation-duration: 2s;
+    animation-name: basictoDylan7;
+}
+@keyframes basictoDylan1{
+    from {
+        transform: rotate(0deg) translate(0px,0px);
+    }
+    to {
+        transform: translate(263px,-75px) rotate(45deg);
+
+    }
+}
+
+@keyframes basictoDylan2{
+    from {
+        transform: rotate(0deg) skew(-45deg) translate(256px,-0px);
+    }
+    to {
+        transform: translate(700px, 106px) rotate(180deg) skew(-45deg);
+
+    }
+}
+
+@keyframes basictoDylan3{
+    from {
+        transform: rotate(0deg) translate(181px,0px) ;
+    }
+    to {
+        transform: translate(-122px,160px) rotate(45deg);
+    }
+}
+
+@keyframes basictoDylan4{
+    from {
+        transform: rotate(0deg) translate(128px,128px);
+    }
+    to {
+        transform: translate(-68px, 362px);
+    }
+}
+
+@keyframes basictoDylan5{
+    from {
+        transform: rotate(0deg) translate(0px,0px);
+    }
+    to {
+        transform: translate(-68px,106px);
+    }
+}
+
+@keyframes basictoDylan6{
+    from {
+        transform: rotate(45deg) translate(0px,256px);
+    }
+    to {
+        transform: translate(60px, 490px) rotate(-90deg);
+    }
+}
+
+@keyframes basictoDylan7{
+    from {
+        transform: rotate(0deg) translate(0px,256px);
+    }
+    to {
+        transform: translate(700px, 106px) rotate(90deg);
+
+    }
+}

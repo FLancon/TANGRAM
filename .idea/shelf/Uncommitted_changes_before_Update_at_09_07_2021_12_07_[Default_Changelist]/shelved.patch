@@ -1,0 +1,28 @@
+Index: JS/script.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>var tangram = document.getElementsByClassName(\"tangram\")[0];\nvar button_basic = document.getElementsByClassName(\"button--basic\")[0];\nvar button_bougie = document.getElementsByClassName(\"button--bougie\")[0];\nvar button_shirt = document.getElementsByClassName(\"button--shirt\")[0];\nvar button_gun = document.getElementsByClassName(\"button--gun\")[0];\nvar button_rocket = document.getElementsByClassName(\"button--rocket\")[0];\nvar button_persolucas = document.getElementsByClassName(\"button--persolucas\")[0];\n\nbutton_basic.onclick = function() {\n\ttangram.className =\n  tangram.className.replace(/tangram--(\\S*)/,'tangram--basic');\n};\nbutton_bougie.onclick = function() {\n\ttangram.className =\n  tangram.className.replace(/tangram--(\\S*)/,'tangram--bougie');\n};\nbutton_shirt.onclick = function() {\n\ttangram.className =\n  tangram.className.replace(/tangram--(\\S*)/,'tangram--shirt');\n};\nbutton_gun.onclick = function() {\n\ttangram.className =\n  tangram.className.replace(/tangram--(\\S*)/,'tangram--gun');\n};\nbutton_rocket.onclick = function() {\n\ttangram.className =\n  tangram.className.replace(/tangram--(\\S*)/,'tangram--rocket');\n};\nbutton_persolucas.onclick = function() {\n\ttangram.className =\n  tangram.className.replace(/tangram--(\\S*)/,'tangram--persolucas');\n};\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/JS/script.js b/JS/script.js
+--- a/JS/script.js	(revision 14e936e4c9ee1bd6937c968823468dab394adb92)
++++ b/JS/script.js	(date 1625825204436)
+@@ -5,7 +5,7 @@
+ var button_gun = document.getElementsByClassName("button--gun")[0];
+ var button_rocket = document.getElementsByClassName("button--rocket")[0];
+ var button_persolucas = document.getElementsByClassName("button--persolucas")[0];
+-
++var button_persodylan = document.getElementsByClassName("button--persodylan")[0];
+ button_basic.onclick = function() {
+ 	tangram.className =
+   tangram.className.replace(/tangram--(\S*)/,'tangram--basic');
+@@ -30,4 +30,8 @@
+ 	tangram.className =
+   tangram.className.replace(/tangram--(\S*)/,'tangram--persolucas');
+ };
++button_persodylan.onclick = function(){
++	tangram.className=
++		tangram.className.replace(/tangram--(\S*)/,'tangram--persodylan');
++};
+ 
