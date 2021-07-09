@@ -1,0 +1,37 @@
+.tangram--persoalexis .figure1 {
+    transform: translate(349px,615px);
+   transition: transform 2s;
+}
+
+.tangram--persoalexis .figure2 {
+   transform: translate(477px,743px) skew(-45deg);
+    transition: transform 2s;
+}
+
+.tangram--persoalexis .figure3 {
+    transform:translate(379px,-49px) rotate(65deg);
+   transition: transform 2s;
+}
+
+.tangram--persoalexis .figure4 {
+    
+    transform:translate(455px,443px) rotate(-135deg);
+    transition: transform 2s;
+}
+
+.tangram--persoalexis .figure5 {
+    transform: translate(967px,510px) rotate(180deg);
+    transition: transform 2s;
+}
+
+.tangram--persoalexis .figure6 {
+    transform:translate(604px,871px) rotate(-90deg);
+    transition: transform 2s;
+}
+
+.tangram--persoalexis .figure7 {
+    transform: translate(892px,435px) rotate(135deg);
+   transition: transform 2s;
+}
+ 
+
